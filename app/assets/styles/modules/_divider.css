@@ -1,0 +1,30 @@
+.divider {
+  padding: 9rem 0;
+
+  &__text {
+    font-size: 3.7rem;
+    text-transform: uppercase;
+    line-height: 5.5rem;
+    padding: 0 2.5rem;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    max-width: 45rem;
+
+    @mixin atExtraSmall {
+      font-size: 6rem;
+      max-width: 70rem;
+      line-height: 7rem;
+    }
+
+    @mixin atSmall {
+      font-size: 7.7rem;
+      line-height: 7rem;
+      max-width: 80rem;
+    }
+
+    @mixin atMedium {
+      text-align: left;
+      width: 80rem;
+    }
+  }
+}

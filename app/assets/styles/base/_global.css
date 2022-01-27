@@ -1,0 +1,26 @@
+html {
+  font-size: 55.5555%;
+
+  @mixin atMedium {
+    /* font-size: 62.5%; */
+  }
+
+  @mixin atLarge {
+  }
+
+  @mixin atExtraLarge {
+    /* font-size: 68.75%; */
+    font-size: 62.5%;
+  }
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  /* font-size: 1.8rem; */
+  color: $blueDark;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

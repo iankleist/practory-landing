@@ -1,0 +1,57 @@
+.steps {
+  background: $blue;
+  color: $white;
+  padding: 5.5rem 2.5rem 3rem 2.5rem;
+  position: relative;
+  overflow: hidden;
+
+  @mixin atExtraSmall {
+    padding: 5.5rem 7rem 3rem 7rem;
+  }
+
+  @mixin atMedium {
+    padding: 5.5rem 0 3rem 23rem;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 4rem;
+    max-width: 65rem;
+  }
+
+  &__list {
+    font-size: $big;
+    line-height: 6rem;
+    list-style: none;
+    padding: 0;
+  }
+
+  &__list-item {
+    padding-left: 3rem;
+    background: url('assets/images/bullet-point.svg') no-repeat 0 2.1rem;
+
+    @mixin atMedium {
+      background: url('assets/images/bullet-point.svg') no-repeat 0 2.4rem;
+    }
+  }
+
+  &__logo {
+    position: absolute;
+    display: none;
+
+    @mixin atExtraSmall {
+      display: block;
+      right: 5rem;
+      bottom: -1.5rem;
+      width: 15rem;
+    }
+
+    @mixin atMedium {
+      bottom: -3rem;
+      right: 14rem;
+      width: 23.2rem;
+    }
+  }
+}

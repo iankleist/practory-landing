@@ -1,0 +1,19 @@
+.footer {
+  background: $blue;
+  color: $white;
+  text-align: center;
+  padding: 2rem 0;
+
+  &__list {
+    list-style: none;
+    text-align: center;
+    font-size: $normal;
+    padding: 0;
+    line-height: 3.6rem;
+    margin-bottom: 4rem;
+  }
+
+  &__copyright {
+    font-size: $small;
+  }
+}

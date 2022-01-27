@@ -1,0 +1,46 @@
+.about {
+  padding: 9rem 2.5rem;
+  display: grid;
+  max-width: 110rem;
+  column-gap: 9rem;
+  margin: 0 auto 0 auto;
+
+  @mixin atExtraSmall {
+    padding: 9rem 7rem;
+  }
+
+  @mixin atMedium {
+    grid-template-columns: 1fr 3fr;
+  }
+
+  &__text {
+    font-size: $normal;
+    line-height: 2.5rem;
+    text-align: justify;
+    place-self: center;
+    font-weight: 600;
+    max-width: 600px;
+
+    @mixin atMedium {
+      font-size: $normal;
+      font-weight: 600;
+    }
+  }
+
+  &__portrait {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3.5rem;
+
+    @mixin atMedium {
+      margin-bottom: 0;
+    }
+
+    & img {
+      max-width: 27rem;
+      max-height: 27rem;
+      border-radius: 50%;
+    }
+  }
+}

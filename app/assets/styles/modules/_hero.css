@@ -1,0 +1,108 @@
+.hero {
+  margin-bottom: 10rem;
+
+  &__content {
+    display: grid;
+    padding: 0 2.5rem;
+
+    @mixin atMedium {
+      margin-right: auto;
+      grid-template-columns: 40rem 1fr;
+      column-gap: 0;
+      margin-left: 5rem;
+    }
+
+    @mixin atLarge {
+      margin-left: 12vw;
+      column-gap: 3rem;
+    }
+  }
+
+  &__image {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 140px;
+    animation: fadeInDown 0.5s ease-in-out both;
+
+    @mixin atMedium {
+      max-width: 200px;
+    }
+
+    @mixin atExtraLarge {
+      max-width: 272px;
+    }
+  }
+
+  &__title {
+    text-transform: uppercase;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 3.7rem;
+    padding-top: 2rem;
+    grid-row: 1;
+    max-width: 45rem;
+    place-self: center;
+    line-height: 5rem;
+    text-align: center;
+    /* margin-bottom: 4rem; */
+    animation: fadeIn 0.6s ease-in-out both;
+    animation-delay: 0.1s;
+
+    @mixin atExtraSmall {
+      font-size: 6rem;
+      max-width: 70rem;
+      line-height: 7rem;
+    }
+
+    @mixin atSmall {
+      font-size: 7.7rem;
+      line-height: 10rem;
+      max-width: 80rem;
+    }
+
+    @mixin atMedium {
+      max-width: 80rem;
+      grid-column: 2;
+      font-size: 7.7rem;
+      place-self: start;
+      text-align: left;
+    }
+  }
+
+  &__cta {
+    border: none;
+    background: $red;
+    color: white;
+    margin-top: 3.5rem;
+    padding: 2.5rem 9rem;
+    border-radius: 8px;
+    font-size: 2.4rem;
+    max-width: 50rem;
+    place-self: center;
+
+    &:hover {
+      transition: background 0.2s ease-in-out;
+      cursor: pointer;
+      background: #ca5957;
+    }
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -8%, 0) scale(1.1);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
