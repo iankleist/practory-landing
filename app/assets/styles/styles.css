@@ -15,6 +15,7 @@
 /* Shared */
 @import 'modules/_headline.css';
 @import 'modules/_view.css';
+@import 'modules/_fixed-bottom.css';
 
 /* Views */
 @import 'modules/_contact.css';
