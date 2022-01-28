@@ -1,0 +1,9 @@
+.headline {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+
+  @mixin atMedium {
+    margin-bottom: 4rem;
+  }
+}

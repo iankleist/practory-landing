@@ -1,0 +1,9 @@
+.view {
+  margin: 6rem 2.5rem 15rem 2.5rem;
+  font-size: $normal;
+  max-width: 100rem;
+
+  @mixin atMedium {
+    margin: 6rem 10rem 15rem 10rem;
+  }
+}

@@ -1,0 +1,28 @@
+.privacy {
+  line-height: 2.4rem;
+
+  &__subheading {
+    font-size: $big;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  &__sub-subheading {
+    font-size: 2.1rem;
+    font-weight: 600;
+    margin: 2.5rem 0 1.5rem 0;
+  }
+
+  p {
+    margin: 1.6rem 0;
+    line-height: 2.4rem;
+  }
+
+  ul {
+    padding-left: 2rem;
+  }
+
+  li {
+    margin-bottom: 1rem;
+  }
+}

@@ -12,5 +12,11 @@
 @import 'modules/_footer.css';
 @import 'modules/_reveal-item.css';
 
-/* Contact */
+/* Shared */
+@import 'modules/_headline.css';
+@import 'modules/_view.css';
+
+/* Views */
 @import 'modules/_contact.css';
+@import 'modules/_terms.css';
+@import 'modules/_privacy.css';

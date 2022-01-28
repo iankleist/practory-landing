@@ -1,0 +1,12 @@
+.terms {
+  &__subheading {
+    font-size: $big;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    margin: 1.6rem 0;
+    line-height: 2.4rem;
+  }
+}
