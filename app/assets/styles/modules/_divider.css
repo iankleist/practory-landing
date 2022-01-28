@@ -1,10 +1,14 @@
 .divider {
-  padding: 9rem 0;
+  padding: 5.5rem 0;
+
+  @mixin atSmall {
+    padding: 9rem 0;
+  }
 
   &__text {
     font-size: 3.7rem;
     text-transform: uppercase;
-    line-height: 5.5rem;
+    line-height: 5rem;
     padding: 0 2.5rem;
     text-align: center;
     margin: 0 auto 0 auto;
@@ -18,7 +22,7 @@
 
     @mixin atSmall {
       font-size: 7.7rem;
-      line-height: 7rem;
+      line-height: 10rem;
       max-width: 80rem;
     }
 
