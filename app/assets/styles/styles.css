@@ -11,3 +11,6 @@
 @import 'modules/_about.css';
 @import 'modules/_footer.css';
 @import 'modules/_reveal-item.css';
+
+/* Contact */
+@import 'modules/_contact.css';

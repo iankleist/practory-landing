@@ -1,0 +1,31 @@
+.contact {
+  margin: 6rem 2.5rem 15rem 2.5rem;
+
+  @mixin atMedium {
+    margin-left: 10rem;
+    max-width: 30rem;
+  }
+
+  &__heading {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+
+    @mixin atMedium {
+      margin-bottom: 4rem;
+    }
+  }
+
+  &__address {
+    font-size: $normal;
+    line-height: 1rem;
+  }
+
+  &__email {
+    margin-top: 3rem;
+    strong {
+      margin-top: 2rem;
+      font-weight: 600;
+    }
+  }
+}

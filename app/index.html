@@ -21,23 +21,23 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap"
       rel="stylesheet"
     />
-
     <meta name="theme-color" content="#ffffff" />
   </head>
 
   <body>
     <div class="container">
       <header class="header">
-        <img
-          srcset="
-            ./assets/images/logo-resolution-small.png 180w,
-            ./assets/images/logo-resolution-large.png 463w
-          "
-          alt="Practory Logo"
-          width="180"
-          height="50.92"
-          class="header__logo"
-        />
+        <a href="https://app.practory.io">
+          <img
+            srcset="
+              ./assets/images/logo-resolution-small.png 180w,
+              ./assets/images/logo-resolution-large.png 463w
+            "
+            alt="Practory Logo"
+            width="180"
+            height="50.92"
+            class="header__logo"
+        /></a>
       </header>
       <section class="hero">
         <div class="hero__content">
@@ -56,12 +56,14 @@
           <h1 class="hero__title">
             The musician&apos;s app to organize your practice flow.
           </h1>
-          <button class="hero__cta">Sign up for free</button>
+          <a href="https://app.practory.io" class="hero__cta"
+            >Sign up for free</a
+          >
         </div>
       </section>
       <section class="steps">
         <h2 class="steps__title">
-          Practory helps you tick off your practice goals in three steps
+          Practory helps you tick off your practice goals in three steps:
         </h2>
         <ul class="steps__list">
           <li class="steps__list-item">Organize your repertoire.</li>
@@ -128,7 +130,7 @@
           <h3 class="features__heading">Practice what's important</h3>
           <ul class="features__list">
             <li class="features__list-item">Seamless practice flow</li>
-            <li class="features__list-item">Built in metronome</li>
+            <li class="features__list-item">Built-in metronome</li>
           </ul>
         </div>
       </section>
@@ -166,10 +168,13 @@
       </section>
       <footer class="footer">
         <ul class="footer__list">
-          <li class="footer__list-item">Contact</li>
-          <li class="footer__list-item">Terms of Service</li>
-          <li class="footer__list-item">Privacy Policy</li>
-          <li class="footer__list-item">Imprint</li>
+          <li class="footer__list-item"><a href="contact.html">Contact</a></li>
+          <li class="footer__list-item">
+            <a href="terms.html">Terms of Service</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="privacy.html">Privacy Policy</a>
+          </li>
         </ul>
         <div class="footer__copyright">&copy;2022 practory.io</div>
       </footer>
