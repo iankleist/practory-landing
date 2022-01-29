@@ -45,6 +45,7 @@
 
   &__play-box {
     position: relative;
+    height: 278.5px;
   }
 
   &__play {

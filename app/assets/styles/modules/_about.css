@@ -1,7 +1,7 @@
 .about {
   padding: 9rem 2.5rem;
   display: grid;
-  max-width: 110rem;
+  max-width: 115rem;
   column-gap: 9rem;
   margin: 0 auto 0 auto;
 
@@ -11,6 +11,7 @@
 
   @mixin atMedium {
     grid-template-columns: 1fr 3fr;
+    /* max-width: 120rem; */
   }
 
   &__text {
@@ -19,11 +20,9 @@
     text-align: justify;
     place-self: center;
     font-weight: 600;
-    max-width: 600px;
+    /* max-width: 600px; */
 
     @mixin atMedium {
-      font-size: $normal;
-      font-weight: 600;
     }
   }
 
@@ -38,8 +37,8 @@
     }
 
     & img {
-      max-width: 27rem;
-      max-height: 27rem;
+      max-width: 29rem;
+      max-height: 29rem;
       border-radius: 50%;
     }
   }
