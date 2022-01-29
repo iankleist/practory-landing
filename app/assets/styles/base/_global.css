@@ -1,15 +1,10 @@
 html {
   font-size: 55.5555%;
 
-  @mixin atMedium {
-    /* font-size: 62.5%; */
-  }
-
   @mixin atLarge {
   }
 
   @mixin atExtraLarge {
-    /* font-size: 68.75%; */
     font-size: 62.5%;
   }
 }
