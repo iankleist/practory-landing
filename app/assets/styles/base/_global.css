@@ -3,6 +3,7 @@
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url('assets/fonts/nunito-v25-latin-regular.eot'); /* IE9 Compat Modes */
   src: local(''),
     url('assets/fonts/nunito-v25-latin-regular.eot?#iefix')
@@ -22,6 +23,7 @@
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 600;
+  font-display: swap;
   src: url('assets/fonts/nunito-v25-latin-600.eot'); /* IE9 Compat Modes */
   src: local(''),
     url('assets/fonts/nunito-v25-latin-600.eot?#iefix')
